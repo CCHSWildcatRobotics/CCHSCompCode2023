@@ -9,7 +9,7 @@ public class Grabber extends SubsystemBase{
     private final DoubleSolenoid pistons;
 
     public Grabber(){
-        pistons = new DoubleSolenoid(PneumaticsModuleType.REVPH, 3, 4);
+        pistons = new DoubleSolenoid(PneumaticsModuleType.REVPH, 4, 3);
     }
 
     public void extend(){

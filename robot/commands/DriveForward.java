@@ -54,7 +54,7 @@ public class DriveForward extends CommandBase {
     @Override
     public void execute() {
         //made them slower by using 0.4
-        m_drivetrain.drive(-0.4, -0.4);
+        m_drivetrain.drive(0.4, 0.4);
     }
 
     // Called once the command ends or is interrupted.
