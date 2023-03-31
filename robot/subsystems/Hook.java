@@ -10,6 +10,7 @@ public class Hook extends SubsystemBase{
 
     public Hook(){
         pistons = new DoubleSolenoid(PneumaticsModuleType.REVPH, 5, 6);
+        extend();
     }
 
     public void extend(){
